@@ -1,0 +1,22 @@
+INSERT INTO service_points (service_point_name, geom)
+VALUES
+    ('Hospital A', ST_SetSRID(ST_MakePoint(-3.1778, 51.4816), 4326)),
+    ('Pharmacy B', ST_SetSRID(ST_MakePoint(-3.9436, 51.6190), 4326)),
+    ('Community Center C', ST_SetSRID(ST_MakePoint(-3.0051, 51.5877), 4326)),
+    ('Medical Clinic D', ST_SetSRID(ST_MakePoint(-3.1993, 51.6942), 4326)),
+    ('Dentist E', ST_SetSRID(ST_MakePoint(-3.4665, 51.6506), 4326)),
+    ('Social Services F', ST_SetSRID(ST_MakePoint(-3.7834, 51.6171), 4326)),
+    ('Nursing Home G', ST_SetSRID(ST_MakePoint(-4.0158, 51.6724), 4326)),
+    ('Optician H', ST_SetSRID(ST_MakePoint(-3.2902, 51.6946), 4326)),
+    ('Rehabilitation Center I', ST_SetSRID(ST_MakePoint(-3.9297, 51.5578), 4326)),
+    ('Blood Donation Center J', ST_SetSRID(ST_MakePoint(-3.1681, 51.7000), 4326)),
+    ('Mental Health Clinic K', ST_SetSRID(ST_MakePoint(-4.0994, 51.9006), 4326)),
+    ('Wellness Center L', ST_SetSRID(ST_MakePoint(-4.3562, 51.7549), 4326)),
+    ('Home Care Services M', ST_SetSRID(ST_MakePoint(-3.7741, 51.7296), 4326)),
+    ('Hospice N', ST_SetSRID(ST_MakePoint(-4.2170, 51.5821), 4326)),
+    ('Physical Therapy O', ST_SetSRID(ST_MakePoint(-3.3013, 51.6257), 4326)),
+    ('Emergency Shelter P', ST_SetSRID(ST_MakePoint(-3.9929, 51.9021), 4326)),
+    ('Senior Center Q', ST_SetSRID(ST_MakePoint(-3.6781, 51.6747), 4326)),
+    ('Palliative Care R', ST_SetSRID(ST_MakePoint(-3.2636, 51.5754), 4326)),
+    ('Assisted Living Facility S', ST_SetSRID(ST_MakePoint(-4.0425, 51.5289), 4326)),
+    ('Fitness Center T', ST_SetSRID(ST_MakePoint(-3.5400, 51.6703), 4326));
